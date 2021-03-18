@@ -1,0 +1,99 @@
+/*****************************RULES*******************************
+background color  			rgb(35,35,35)
+icons, text color		   	rgb(166,166,166)
+
+hover backgroun color		rgb(255,255,255,70)
+hover color					rgb(200,200,200)
+
+main body color		  		rgb(66,66,66)
+
+selection color 			rgb(97,172,236)
+red color 					rgb(193,70,70)
+green color					rgb(125,198,83)
+yellow						rgb(233,233,117)
+*******************************************************************/
+QWidget > CQuadroPrincipal
+{
+	background-color: rgb(51,51,51);
+	font-family:"Arial";
+	font-size: 12px;
+	color:rgb(166,166,166);
+}
+
+QWidget > CQuadroPrincipal::disabled 
+{
+	color:rgb(120,120,120);
+}
+
+QSeparators 
+{
+	background-color:transparent;
+	color:transparent;
+	border: none;
+}
+
+QToolButton 
+{
+	border-radius: 0px;
+	background-color: rgb(97,172,236);
+	margin:0;
+	padding:0;
+	icon-size:24px;
+	max-height:24px;
+}
+
+QToolButton::hover 
+{
+	background-color: rgb(35,35,35);
+	border-radius: 2px;
+}
+
+QToolButton::checked 
+{
+	background-color: rgb(14,14,14);
+	border-radius:2px;
+	color:rgb(97,172,236);
+}
+
+QToolButton::pressed 
+{
+	background-color: rgb(20,20,20);
+}
+
+QMenuBar
+{
+	padding:0;
+	margin:0;
+}
+
+QMenu::item:disabled 
+{
+	color:rgb(120,120,120);
+}
+
+QMenu 
+{
+	background-color: rgb(35,35,35);
+	color: white;
+}
+
+QMenu::item:selected 
+{
+	background-color:rgb(86,86,86);
+}
+
+QMenu:separator 
+{
+	border-radius:2px;
+        background: rgb(102,102,102);
+	height:1px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+QToolTip 
+{
+	border-radius:3;
+	color:rgb(166,166,166);
+	background-color:rgb(35,35,35);
+}

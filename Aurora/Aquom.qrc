@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file alias="VizualizacaoDeLista.ico">icones/general_view_list.ico</file>
+        <file alias="IconeDoEditor">icones/editor_icon.ico</file>
+        <file alias="SelecionarPasta">icones/general_folder.ico</file>
+        <file alias="IconeDeCarregamneto">icones/dialog_loading.ico</file>
+        <file alias="VisualizaçãoTamanho1">icones/general_preview_size_1.ico</file>
+        <file alias="VisualizacaoEmMiniatura">icones/general_view_thumbnail.ico</file>
+        <file alias="IconeSalvar">icones/general_file_save.ico</file>
+        <file alias="IconeSalvarComo">icones/general_file_save_as.ico</file>
+        <file alias="IconeMutarAudio">icones/audio_mute_audio.ico</file>
+        <file alias="IconePararTodosOsSons">icones/audio_stop_all_sounds.ico</file>
+        <file alias="IconeAtualizarAudio">icones/audio_refresh_audio.ico</file>
+        <file alias="IconeIrParaDocumentacao">icones/tools_go_to_documentation.ico</file>
+        <file alias="ImagemSobre">icones/about.png</file>
+    </qresource>
+    <qresource prefix="/arquivos">
+        <file>estilos/StyleSheet.qss</file>
+    </qresource>
+    <qresource prefix="/janelaDeExibicao">
+        <file alias="InformacoesDeExibicao">icones/viewport_displayinfo.ico</file>
+    </qresource>
+</RCC>

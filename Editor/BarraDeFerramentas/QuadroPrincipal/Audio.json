@@ -1,0 +1,23 @@
+{
+    "barraDeFerramentas": [
+        {
+            "Comando": "AcaoDaIu.acaoMutarAudio",
+            "m_ECustomizado": false,
+            "Nome": "Mutar Audio",
+            "Tipo": 0
+        },
+        {
+            "Comando": "AcaoDaIu.acaoPararTodosOsSons",
+            "m_ECustomizado": false,
+            "Nome": "Parar Todos os Sons",
+            "Tipo": 0
+        },
+        {
+            "Comando": "AcaoDaIu.acaoAtualizarAudio",
+            "m_ECustomizado": false,
+            "Nome": "Refresh Audio",
+            "Tipo": 0
+        }
+    ],
+    "Versao": 2
+}
